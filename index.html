@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lista de tarefas</title>
-    <link rel="stylesheet" href="CSS/List.css">
-    <script src="SCRIPT/List.js" defer></script>
+    <link rel="stylesheet" href="List.css">
+    <script src="List.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,10 +17,9 @@
     <main>
         <div id="toDo">
             <div id="headerList">
-                <h3>lista</h3>
-                <form action="">
-                    <input type="text" name="" id="addList">
-                    <input type="submit" value="criar">
+                <form action="" id="formToDo">
+                    <input type="text" name="" id="addList" autocomplete="off">
+                    <input type="submit" value="criar" id="botaoCriar">
                 </form>
             </div>
             <div class="lista">
