@@ -50,11 +50,12 @@ main{
 .lista{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left: 10px;
     background-color: aliceblue;
     color: black;
     margin-top: 10px;
-    width: 70%;
+    width: 80%;
     height: 50px;
     border-radius: 15px;
 }
@@ -71,6 +72,39 @@ main{
 }
 
 .lista button:hover{
+    background-color: rgb(151, 151, 151);
+    cursor: pointer;
+}
+
+/* lista itens feitos */
+
+.listaFeito{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    background-color: rgb(107, 186, 255);
+    color: black;
+    margin-top: 10px;
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.listaFeito p {
+    margin-right: 30px;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.listaFeito button {
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    background-color:rgb(122, 122, 122);
+}
+
+.listaFeito button:hover{
     background-color: rgb(151, 151, 151);
     cursor: pointer;
 }
