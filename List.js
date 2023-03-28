@@ -70,7 +70,3 @@ const criar = (text) => {
     btnE.innerText = "excluir"
     div2.appendChild(btnE)
 }
-
-const excluir = () => {
-
-}
